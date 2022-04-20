@@ -119,6 +119,8 @@ public class PaintActivity extends Activity implements OnClickListener {
             String color = view.getTag().toString();
             drawView.setColor(color);
             //update ui
+            /*imgView.setImageDrawable(getDrawable(R.drawable.paint_pressed));
+            currPaint.setImageDrawable(getDrawable(R.drawable.paint));*/
             imgView.setImageDrawable(getResources().getDrawable(R.drawable.paint_pressed));
             currPaint.setImageDrawable(getResources().getDrawable(R.drawable.paint));
             currPaint = (ImageButton) view;

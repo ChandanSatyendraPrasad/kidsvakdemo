@@ -111,7 +111,7 @@ public class DrawingView extends View {
         } else {
             //pattern
             int patternID = getResources().getIdentifier(
-                    newColor, "drawable", "com.quintus.labs.kidzz");
+                    newColor, "drawable", "kids.vak.cwd");
             //decode
             Bitmap patternBMP = BitmapFactory.decodeResource(getResources(), patternID);
             //create shader
